@@ -1,0 +1,10 @@
+@article{10.1007/s10817-020-09579-4, 
+  author = {Hóu, Zhé and Sanan, David and Tiu, Alwen and Liu, Yang and Hoa, Koh Chuen and Dong, Jin Song}, 
+  title = {{An Isabelle/HOL Formalisation of the SPARC Instruction Set Architecture and the TSO Memory Model}}, 
+  issn = {0168-7433}, 
+  doi = {10.1007/s10817-020-09579-4}, 
+  abstract = {{The SPARC instruction set architecture (ISA) has been used in various processors in workstations, embedded systems, and in mission-critical industries such as aviation and space engineering. Hence, it is important to provide formal frameworks that facilitate the verification of hardware and software that run on or interface with these processors. In this work, we give the first formal model for multi-core SPARC ISA and Total Store Ordering (TSO) memory model in Isabelle/HOL. We present two levels of modelling for the ISA: The low-level ISA model, which is executable, covers many features specific to SPARC processors, such as delayed-write for control registers, windowed general registers, and more complex memory access. We have tested our model extensively against a LEON3 simulation board, the test covers both single-step executions and sequential execution of programs. We also prove some important properties for our formal model, including a non-interference property for the LEON3 processor. The high-level ISA model is an abstraction of the low-level model and it provides an interface for memory operations in multi-core processors. On top of the high-level ISA model, we formalise two TSO memory models: one is an adaptation of the axiomatic SPARC TSO model (Sindhu et al. in Formal specification of memory models, Springer, Boston, 1992; SPARC in The SPARC architecture manual version 8, 1992. http://gaisler.com/doc/sparcv8.pdf), the other is a new operational TSO model which is suitable for verifying execution results. We prove that the operational model is sound and complete with respect to the axiomatic model. Finally, we give verification examples with two case studies drawn from the SPARCv9 manual.}}, 
+  pages = {1--30}, 
+  journal = {Journal of Automated Reasoning}, 
+  year = {2020}
+}
